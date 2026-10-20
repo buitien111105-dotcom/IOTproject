@@ -101,8 +101,8 @@ void loop() {
   if (millis() - lastTimeReadLDR > 200) {
     int currentLDRValue = analogRead(LDR_PIN);
     
-    Serial.print("Giá trị LUX hiện tại: ");
-    Serial.println(currentLDRValue);
+    //Serial.print("Giá trị LUX hiện tại: ");
+    //Serial.println(currentLDRValue);
 
     int diff = currentLDRValue - lastLDRValue;
     
